@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="統計年月:"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_time_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="16dp"
+            android:textColor="#5B5B5B"
+            app:layout_constraintStart_toEndOf="@id/tv_time"
+            app:layout_constraintTop_toTopOf="@id/tv_time"
+            android:text="10601"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_time"
+            android:text="地區:"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_place_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="16dp"
+            android:textColor="#5B5B5B"
+            app:layout_constraintStart_toEndOf="@id/tv_place"
+            app:layout_constraintTop_toTopOf="@id/tv_place"
+            android:text="新北市板橋區留侯里"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_born"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_place"
+            android:text="出生數:"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_born_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="16dp"
+            android:textColor="#5B5B5B"
+            app:layout_constraintStart_toEndOf="@id/tv_born"
+            app:layout_constraintTop_toTopOf="@id/tv_born"
+            android:text="0"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_death"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginVertical="16dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_born"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="死亡數:"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_death_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="16dp"
+            android:textColor="#5B5B5B"
+            app:layout_constraintStart_toEndOf="@id/tv_death"
+            app:layout_constraintTop_toTopOf="@id/tv_death"
+            android:text="1"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
