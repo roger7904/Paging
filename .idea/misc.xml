@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/roger/projects/Paging/app/src/main/res/drawable-v24/ic_error.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/roger/projects/Paging/app/src/main/res/drawable/ic_error.xml" value="0.1537037037037037" />
         <entry key="..\:/Users/roger/projects/Paging/app/src/main/res/layout/activity_main.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/roger/projects/Paging/app/src/main/res/layout/item_footer_loading_state.xml" value="0.161231884057971" />
         <entry key="..\:/Users/roger/projects/Paging/app/src/main/res/layout/item_people.xml" value="0.2702702702702703" />
       </map>
     </option>

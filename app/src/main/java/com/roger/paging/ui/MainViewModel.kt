@@ -32,6 +32,9 @@ class MainViewModel : ViewModel() {
         _peoplePagingData
 
     init {
+        getFactoryInfoPagingData()
+    }
+    fun getFactoryInfoPagingData() {
         compositeDisposable.add(
             repository.getFactoryInfo()
                 .cachedIn(viewModelScope) //緩存Flow<PagingData>
