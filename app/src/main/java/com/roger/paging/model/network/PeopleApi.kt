@@ -6,7 +6,7 @@ import io.reactivex.rxjava3.core.Single
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface Api {
+interface PeopleApi {
 
     @GET(Constants.API_ENDPOINT)
     fun getInfo(

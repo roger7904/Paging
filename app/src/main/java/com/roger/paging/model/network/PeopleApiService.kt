@@ -8,14 +8,14 @@ import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 
 
-class ApiService {
+class PeopleApiService {
 
     private val api = Retrofit.Builder()
         .baseUrl(Constants.BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
         .build()
-        .create(Api::class.java)
+        .create(PeopleApi::class.java)
 
     fun getInfo(page : Int): Single<PeopleList> {
         return api.getInfo(
