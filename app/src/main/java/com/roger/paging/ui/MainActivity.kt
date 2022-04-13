@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         mBinding.run {
             swipeRefresh.setOnRefreshListener {
-                viewModel.getFactoryInfoPagingData()
+                viewModel.getPeopleInfoPagingData()
             }
 
             mBinding.rvInfo.apply {

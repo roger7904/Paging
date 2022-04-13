@@ -10,13 +10,12 @@ import io.reactivex.rxjava3.core.Flowable
 
 class PeopleInfoRepository(private val peoplePagingSource: PeoplePagingSource) {
 
-    fun getFactoryInfo(): Flowable<PagingData<PeopleList.People>> {
+    fun getPeopleInfo(): Flowable<PagingData<PeopleList.People>> {
         return Pager(
             config = PagingConfig(
                 initialLoadSize = 30,
                 pageSize = 15,
-                prefetchDistance = 15,
-                enablePlaceholders = true
+                prefetchDistance = 15
             ),
             pagingSourceFactory = {
                 peoplePagingSource
