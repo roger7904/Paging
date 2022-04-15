@@ -1,8 +1,6 @@
-# <div align="center" >Paging</div>
+# <div align="center" >Android Jetpack Paging 3 using RxJava</div>
 
-<div align="center">Implementation of Jetpack Paging3 using RxJava
-  
-<br />
+<div align="center">
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-Language-purple?logo=Kotlin)
 <br />
