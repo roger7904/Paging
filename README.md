@@ -13,4 +13,6 @@
 <img src="docs/paging2.gif" width="200" height="412"/>
 </div>
 
+***
+
 [Medium 教學文章](https://medium.com/@rogerchang7904/android-jetpack-paging-3-using-rxjava-910bfd937d14)
