@@ -2,7 +2,8 @@
 
 <div align="center">Implementation of Jetpack Paging3 using RxJava
   
-<br /><br />
+<br />
+
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-Language-purple?logo=Kotlin)
 <br />
