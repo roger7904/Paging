@@ -15,4 +15,4 @@
 
 ***
 
-[Medium 教學文章](https://medium.com/@rogerchang7904/android-jetpack-paging-3-using-rxjava-910bfd937d14)
+有興趣了解詳細內容可以觀看[Medium 教學文章](https://medium.com/@rogerchang7904/android-jetpack-paging-3-using-rxjava-910bfd937d14)
